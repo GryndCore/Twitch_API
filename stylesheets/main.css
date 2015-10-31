@@ -1,0 +1,106 @@
+/* line 3, ../sass/main.scss */
+html, body {
+  background: url("https://metrouk2.files.wordpress.com/2014/05/twitch-tv-2.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #6340a4 !important;
+}
+
+/* line 10, ../sass/main.scss */
+#mainBox {
+  max-width: 400px;
+  background-color: #fefefe;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid 1px #6340a4;
+  border-radius: 3px;
+  padding: 0;
+  opacity: 0.98;
+}
+/* line 21, ../sass/main.scss */
+#mainBox ul {
+  min-width: 300px;
+  padding: 0 !important;
+}
+/* line 25, ../sass/main.scss */
+#mainBox ul #active {
+  background-color: #6340a4;
+  color: #fefefe;
+  cursor: pointer;
+}
+/* line 31, ../sass/main.scss */
+#mainBox ul li {
+  float: left;
+  width: 33.334%;
+  list-style-type: none;
+  border-right: solid 1px #6340a4;
+  border-bottom: solid 1px #6340a4;
+  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+}
+/* line 40, ../sass/main.scss */
+#mainBox ul li:hover {
+  background-color: #9d6bf9;
+  color: #fefefe;
+  cursor: pointer;
+}
+/* line 45, ../sass/main.scss */
+#mainBox ul li:last-child {
+  border-right-width: 0px;
+}
+/* line 49, ../sass/main.scss */
+#mainBox #search {
+  width: 80%;
+  height: 50px;
+  margin: 20px;
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+/* line 58, ../sass/main.scss */
+#mainBox .listBox {
+  box-shadow: 2px 2px 3px #6340a4;
+}
+/* line 61, ../sass/main.scss */
+#mainBox .listBox .streamer {
+  width: 100%;
+  height: 95px;
+  text-align: left;
+  padding: 10px;
+  display: none;
+  line-height: 10px;
+  text-decoration: none;
+}
+/* line 69, ../sass/main.scss */
+#mainBox .listBox .streamer img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 20%;
+}
+/* line 75, ../sass/main.scss */
+#mainBox .listBox .streamer p {
+  line-height: 75px;
+  vertical-align: middle;
+}
+/* line 80, ../sass/main.scss */
+#mainBox .listBox .online {
+  margin-top: 30px;
+  float: right;
+  color: green;
+}
+/* line 85, ../sass/main.scss */
+#mainBox .listBox .offline {
+  margin-top: 30px;
+  float: right;
+  color: red;
+}
+/* line 90, ../sass/main.scss */
+#mainBox .listBox .streamer:hover {
+  background-color: #9d6bf9;
+  color: #fefefe;
+  cursor: pointer;
+}
